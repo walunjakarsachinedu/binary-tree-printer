@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         TreePrinter treePrinter = new TreePrinter();
         AVLTree avlTree = new AVLTree();
-        for(int i=0;i<=6;i++){
+        for(int i=0;i<=10;i++){
             avlTree.insert(i);
         }
 
